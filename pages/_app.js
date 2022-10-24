@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }) {
                   <a className="mr-6 text-pink-500">Agregar platillos</a>
                 </Link>
                 <Link href="/my-dishes">
-                  <a className="mr-6 text-pink-500">Mis platillos</a>
+                  {/* <a className="mr-6 text-pink-500">Mis platillos</a> */}
                 </Link>
               </div>
             </nav>
