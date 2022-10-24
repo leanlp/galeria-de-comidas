@@ -65,23 +65,40 @@ function MyApp({ Component, pageProps }) {
 
       {walletAccount && (
         <div>
+          <div>
           <main>
             <nav className="border-b p-6">
-              <p className="text-4xl font-bold">Platzi Eaters</p>
+              <p className="text-5xl font-bold">Tus gustos, almacenados en  Blockchain</p>
               <div className="flex mt-4">
                 <Link href="/">
-                  <a className="mr-4 text-pink-500">Inicio</a>
+                  <a className="mr-9 text-pink-500">Inicio</a>
                 </Link>
                 <Link href="/add-dish">
-                  <a className="mr-6 text-pink-500">Agregar platillos</a>
-                </Link>
+                  <a className="mr-6 text-pink-500">Agregar platillos</a></Link>
+                {/* </Link>
                 <Link href="/my-dishes">
-                  {/* <a className="mr-6 text-pink-500">Mis platillos</a> */}
-                </Link>
+                  <a className="mr-6 text-pink-500">Mis platillos</a>
+                </Link> */}
               </div>
             </nav>
           </main>
           <Component {...pageProps} />
+        </div>
+        
+        <nav className="border-b p-6">
+              
+              <div className="flex mt-40">
+                <Link href="https://leanlp.github.io/galeriaNft/">
+                  <a className="mr-60 text-500">Galeria NFT platzi</a>
+                </Link>
+                <Link href="https://github.com/leanlp">
+                  <a className="mr-60 text-500">GitHub</a></Link>
+
+                  <Link href="https://leanlp.github.io/porfolioweb/">
+                  <a className="mr-60 text-500">Web</a></Link>
+               
+              </div>
+            </nav>
         </div>
       )}
     </div>
