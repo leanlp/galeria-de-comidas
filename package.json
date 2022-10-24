@@ -1,0 +1,32 @@
+{
+  "homepage": "https://leanlp.github.io/galeria-de-comidas/",
+  "name": "platzi-eaters",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.6.6",
+    "gh-pages": "^4.0.0",
+    "next": "12.1.5",
+    "nextjs": "^0.0.3",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "vercel": "^28.4.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "eslint": "^8.13.0",
+    "eslint-config-next": "12.1.5",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
